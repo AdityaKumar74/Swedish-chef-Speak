@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #318CE7
+    --balck: #333333
+    --width-break: 600px
+}
+
+body {
+    display: block;
+    text-align: center;
+    color: #333333;
+}
+
+#button {
+    background-color: var(--primary);
+}
+
+#txt-area {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+}
