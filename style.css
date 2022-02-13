@@ -35,6 +35,8 @@ main {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    color: #06b6d4;
+    background-color: #abebf3;
 }
 
 button {
@@ -73,4 +75,8 @@ footer {
 footer p {
     max-width: var(--width-break);
     margin: auto;
+}
+
+:placeholder-shown {
+    background-color: #abebf3;
 }
