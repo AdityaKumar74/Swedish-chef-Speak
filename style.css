@@ -27,7 +27,7 @@ main {
     max-width: var(--width-break);
 }
 
-textarea {
+#txt-area {
     box-sizing: border-box;
     display: block;
     width: 100%;
